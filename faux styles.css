@@ -1,0 +1,330 @@
+.mediaViewInfo {
+	--web-view-name: Homepage;
+	--web-view-id: Homepage;
+	--web-scale-on-resize: true;
+	--web-show-navigation-controls: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: arial, Manrope;
+}
+:root {
+	--web-view-ids: Homepage;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Homepage {
+	position: absolute;
+	width: 100%;
+	height:450%;
+	font-family: arial, Manrope;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Homepage;
+	--web-view-id: Homepage;
+	--web-scale-on-resize: true;
+	--web-show-navigation-controls: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: arial;
+}
+ 
+
+
+canvas {
+    background: #FFFF05;
+	background-image: linear-gradient(to bottom, #81968F99, #FFE636CC, #FF000066);
+	margin: 50% 0% 0% 8%;
+	padding: 0vh 0vh 0vh 0vh;
+	z-index:-1;
+	width:auto;
+	
+}
+
+
+
+
+#Top {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 8%;
+	top: -2%;
+	overflow: visible;
+}
+
+#I_am_a_multimedia_arts_student {
+    
+    top: 8%;
+    position: absolute;
+    overflow: visible;
+    width: 675px;
+    height: 385px;
+    text-align: left;
+    font-family: Manrope, arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5vh;
+    color: rgba(129,150,143,1);
+	padding-right:4.5em;
+}
+#Wendell_de_Guzman_black {
+    top: 4%;
+    position: absolute;
+    overflow: visible;
+    width: 781px;
+    height: 62px;
+    text-align: left;
+    font-family: Manrope, arial;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 4.5vh;
+    color: rgba(0,0,0,1);
+}
+
+
+#picture {
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    right: 5%;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #81968FCC, #FFE636CC, #FF0000CC);
+}
+#hello {
+    top: 10.5%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    font-family: Manrope, arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50vh;
+    color: rgba(129,150,143,1);
+    letter-spacing: -0.1em;
+}
+
+
+
+
+
+#Wave_Vid {
+    position: absolute;
+    left: -19px;
+	top: -1920px;
+	width: 100vh;
+    height: 100vh;
+	overflow: hidden;
+}
+.Wave_container {
+	overflow: visible;
+	
+}
+
+
+#MIDDLEcontainer {
+	position:absolute;
+	top: 24%;
+	left:59%;
+}
+#MIDDLE { 
+    overflow: visible;
+}
+#Good_ideas_can_take_time {
+    line-height: 0.8;
+    width: 100%;
+    text-align: left;
+	padding-right: 10%;
+    font-family: Manrope, arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15vh;
+    color: rgba(129,150,143,1);
+	margin-bottom: 30px;
+}
+#And_execution_takes_even_more {
+    width: 100%;
+	
+    line-height: 1em;
+    text-align: left;
+	padding-right: 30vh;
+    font-family: Manrope, arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5vh;
+    color: rgba(129,150,143,1);
+	margin-bottom: 20px;
+}
+#Line_ {
+	fill: transparent;
+	stroke: rgba(129,150,143,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+	
+}
+.Line_ {
+    width: 509px;
+    height: 10px;
+    transform: matrix(1,0,0,1,0,0);
+	margin-bottom: 40px;
+}
+
+
+#Midcontainer {
+	position:absolute;	
+}
+#Mid {
+  float:bottom;
+	position:absolute;
+}
+
+.MySkills {
+	position: relative;
+  	overflow:visible;
+	height: 1em;
+	text-align: left;
+	font-family: Manrope, arial;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12vh;
+	color: rgba(129,150,143,1);
+	letter-spacing: -0.85px;
+	
+	
+}
+
+
+#BOTTOM {
+	position: absolute;
+	width: 1667px;
+	height: 2533px;
+	left: 65%;
+	top: 70%;
+	overflow: visible;
+}
+#Socials {
+	position: absolute;
+	width: 5vh;
+	height: 5vh;
+	overflow: visible;
+}
+.Medias {
+	overflow: visible;
+	position: absolute;
+	width: 9vh;
+	height: 8vh;
+	
+	transform: matrix(1,0,0,1,0,0);
+	fill: rgba(129,150,143,1);
+}
+
+
+#Reach_me_thru_my_socials {
+	right: -10vh;
+	top: -25vh;
+	position: absolute;
+	overflow: visible;
+	width: 150vh;
+	height: 150vh;
+	line-height: 55px;
+	text-align: right;
+	font-family: Manrope, arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4.5vh;
+	color: rgba(129,150,143,1);
+	padding-right: 12vh;
+}
+#Text {
+	right: -20px;
+	top: -100vh;
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	height: 342px;
+	text-align: left;
+	font-family: Manrope, arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40vh;
+	color: rgba(129,150,143,1);
+}
+#facebook {
+	position: absolute;
+	left: 35vh;
+	top: 7.985px;
+	overflow: visible;
+}
+#youtube {
+	position: absolute;
+	left: 47vh;
+	top: 7.985px;
+	overflow: visible;	
+}
+#upwork {
+	position: absolute;
+	left: 59vh;
+	top: 7.985px;
+	overflow: visible;
+}
+#webdogthegreatgmailcom {
+	top: 83.019px;
+	position: absolute;
+	overflow: visible;
+	line-height: 90px;
+	margin-top: -29px;
+	text-align: right;
+	font-family: Manrope, arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 5vh;
+	color: rgba(129,150,143,1);
+}
+#n_39995656744 {
+	left: 28.5vh;
+	top: 127.019px;
+	position: absolute;
+	overflow: visible;
+	line-height: 13vh;
+	margin-top: -29px;
+	text-align: right;
+	font-family: Manrope, arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 5vh;
+	color: rgba(129,150,143,1);
+}
+#contactmepls {
+    left: 8%;
+    top: 60%;
+    position: absolute;
+    overflow: visible;
+    width: 967px;
+    height: 502px;
+    text-align: left;
+    font-family: Manrope, arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25vh;
+	line-height: 60%;
+	padding-right: 10%;
+    color: rgba(129,150,143,1);
+	z-index: 1;
+}
+
+#wave_block {
+	fill: rgba(255,255,255,1.00);
+}
+.wave_block {
+    position: absolute;
+    overflow: visible;
+	left:8%;
+	top:58.5%;
+	z-index: 0;
+}
